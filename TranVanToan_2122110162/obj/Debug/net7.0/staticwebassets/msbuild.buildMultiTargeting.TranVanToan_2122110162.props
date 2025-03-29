@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TranVanToan_2122110162.props" />
+</Project>
