@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.NET\\TranVanToan_2122110162\\TranVanToan_2122110162\\TranVanToan_2122110162.csproj": {}
+    "D:\\ASP.NET\\TRANVANTOAN_2122110162\\TranVanToan_2122110162\\TranVanToan_2122110162.csproj": {}
   },
   "projects": {
-    "D:\\ASP.NET\\TranVanToan_2122110162\\TranVanToan_2122110162\\TranVanToan_2122110162.csproj": {
+    "D:\\ASP.NET\\TRANVANTOAN_2122110162\\TranVanToan_2122110162\\TranVanToan_2122110162.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NET\\TranVanToan_2122110162\\TranVanToan_2122110162\\TranVanToan_2122110162.csproj",
+        "projectUniqueName": "D:\\ASP.NET\\TRANVANTOAN_2122110162\\TranVanToan_2122110162\\TranVanToan_2122110162.csproj",
         "projectName": "TranVanToan_2122110162",
-        "projectPath": "D:\\ASP.NET\\TranVanToan_2122110162\\TranVanToan_2122110162\\TranVanToan_2122110162.csproj",
+        "projectPath": "D:\\ASP.NET\\TRANVANTOAN_2122110162\\TranVanToan_2122110162\\TranVanToan_2122110162.csproj",
         "packagesPath": "C:\\Users\\ACER_HANG\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NET\\TranVanToan_2122110162\\TranVanToan_2122110162\\obj\\",
+        "outputPath": "D:\\ASP.NET\\TRANVANTOAN_2122110162\\TranVanToan_2122110162\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER_HANG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,22 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace TranVanToan_2122110162.Controllers
 {
+    
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
