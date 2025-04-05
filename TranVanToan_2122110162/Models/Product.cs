@@ -11,5 +11,12 @@
         public Category Category { get; set; }
         public int BrandId { get; set; }
         public Brand Brand { get; set; }
+
+        // 👉 Audit fields
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public DateTime? DeletedAt { get; set; }
+
+        public int UserId { get; set; }
     }
 }
