@@ -29,9 +29,11 @@ namespace TranVanToan_2122110162.Controllers
                 Price = dto.Price,
                 CategoryId = dto.CategoryId,
                 BrandId = dto.BrandId,
+                Description = dto.Description, 
                 CreatedAt = DateTime.UtcNow,
                 UserId = dto.UserId
             };
+
 
             _context.Products.Add(product);
             _context.SaveChanges();
@@ -55,6 +57,27 @@ namespace TranVanToan_2122110162.Controllers
 
             return Ok(products);
         }
+        // GET: api/Product/id
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            var product = _context.Products
+                .FirstOrDefault(p => p.ProductId == id && p.DeletedAt == null);
+
+            if (product == null)
+                return NotFound("Product not found");
+
+            return Ok(product);
+        }
+        [HttpGet("category/{categoryId}")]
+        public IActionResult GetProductByCategoryId(int categoryId)
+        {
+            var products = _context.Products
+                .Where(p => p.CategoryId == categoryId)
+                .ToList();
+
+            return Ok(products);
+        }
 
         // PUT: api/Product/5
         [HttpPut("{id}")]
@@ -70,8 +93,10 @@ namespace TranVanToan_2122110162.Controllers
             product.Price = dto.Price;
             product.CategoryId = dto.CategoryId;
             product.BrandId = dto.BrandId;
+            product.Description = dto.Description; // ✅ thêm dòng này
             product.UpdatedAt = DateTime.UtcNow;
-            product.UserId = dto.UserId; // Ghi nhận ai update
+            product.UserId = dto.UserId;
+
 
             _context.SaveChanges();
 

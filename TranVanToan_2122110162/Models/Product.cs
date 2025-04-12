@@ -8,6 +8,8 @@
 
         public double Price { get; set; }
         public int CategoryId { get; set; }
+        public string Description { get; set; } // ✅ Mô tả sản phẩm
+
         public Category Category { get; set; }
         public int BrandId { get; set; }
         public Brand Brand { get; set; }
