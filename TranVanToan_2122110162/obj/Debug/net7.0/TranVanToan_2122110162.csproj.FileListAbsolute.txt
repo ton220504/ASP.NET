@@ -66,3 +66,5 @@ D:\ASP.NET\TRANVANTOAN_2122110162\TranVanToan_2122110162\bin\Debug\net7.0\Humani
 D:\ASP.NET\TRANVANTOAN_2122110162\TranVanToan_2122110162\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\ASP.NET\TRANVANTOAN_2122110162\TranVanToan_2122110162\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\ASP.NET\TRANVANTOAN_2122110162\TranVanToan_2122110162\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ASP.NET\TRANVANTOAN_2122110162\TranVanToan_2122110162\bin\Debug\net7.0\TranVanToan_2122110162.staticwebassets.runtime.json
+D:\ASP.NET\TRANVANTOAN_2122110162\TranVanToan_2122110162\bin\Debug\net7.0\Newtonsoft.Json.dll

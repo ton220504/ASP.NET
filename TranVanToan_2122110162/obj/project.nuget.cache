@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3QUd4qsgcLH2xfSXeTqAF9ZvAFPaafAHSuQPhryM+SiKbqxNPpmjXQK/n6KQl9jDhTIBao4++PaJtkPYeR50Yg==",
+  "dgSpecHash": "TPCq79gvRO8q2Rco+R3MS7+EzoCyNHEuZrKM52v6DjrlBgqOEwrRLv9LXGdVRSzDVepz/WfiU1b1td+IToLFxg==",
   "success": true,
   "projectFilePath": "D:\\ASP.NET\\TRANVANTOAN_2122110162\\TranVanToan_2122110162\\TranVanToan_2122110162.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\ACER_HANG\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\ACER_HANG\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\ACER_HANG\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\ACER_HANG\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\ACER_HANG\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\ACER_HANG\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\ACER_HANG\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

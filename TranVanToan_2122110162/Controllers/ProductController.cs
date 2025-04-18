@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TranVanToan_2122110162.Data;
 using TranVanToan_2122110162.Models;
+using Newtonsoft.Json;
 
 namespace TranVanToan_2122110162.Controllers
 {
@@ -79,7 +80,7 @@ namespace TranVanToan_2122110162.Controllers
             return Ok(products);
         }
 
-        // PUT: api/Product/5
+        //PUT: api/Product/5
         [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] ProductCreateDto dto)
         {
@@ -102,6 +103,24 @@ namespace TranVanToan_2122110162.Controllers
 
             return Ok(product);
         }
+        [HttpPost("upload")]
+        public async Task<IActionResult> UploadImage(IFormFile file)
+        {
+            if (file == null || file.Length == 0)
+                return BadRequest("No file uploaded");
+
+            var fileName = Path.GetFileName(file.FileName);
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+
+            return Ok(new { fileName });
+        }
+
+
         // DELETE: api/Product/5?userId=2
         [HttpDelete("{id}")]
         public IActionResult Delete(int id, [FromQuery] int userId)
